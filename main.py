@@ -11,7 +11,7 @@ searchedListUrl = 'https://www.sahibinden.com/otomobil?sorting=date_desc#!'
 
 
 def sendMessageToTelegram(message):
-    chatUrl = "https://api.telegram.org/bot5268665172:AAFq-WcFrbAIWReebHWPnSwc0Qzi0Ikp6m4/sendMessage?chat_id=-1001661403087&text=" \
+    chatUrl = "https://api.telegram.org/botXXXXXXXX:YYYYYYYYY/sendMessage?chat_id=ZZZZZZZZZZZ&text=" \
               + message
     driver.get(chatUrl)
 
